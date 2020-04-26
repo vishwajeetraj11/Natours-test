@@ -1071,7 +1071,7 @@ body {
 }
 
 .card-container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

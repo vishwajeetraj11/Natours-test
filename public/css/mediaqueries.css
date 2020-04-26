@@ -15,12 +15,17 @@
     height: 2.5rem;
   }
 
+  .main{
+    padding: 2rem 2rem;
+  }
+
   .nav {
     display: flex;
   }
 
   .card-container {
     display: block !important;
+    margin-top: 3rem;
   }
 
   .card {
@@ -68,7 +73,10 @@
     display: block;
   }
   
-  .cta{ height: 50rem; }
+  .cta{
+     height: 50rem;
+    padding:0 
+  }
   .cta__img {
 
     left: 37%;
@@ -106,6 +114,7 @@
 
   .card-container {
     display: block !important;
+    
   }
 
   .card {
@@ -115,12 +124,14 @@
   }
 
   .header {
+    position: relative;
     display: flex;
     flex-direction: row;
   }
 
   .header__logo {
-    transform: translate(310%, 20%);
+
+    transform: translate(177%, 38%);
   }
 
   .nav__el,
@@ -130,18 +141,19 @@
   }
 
   .pos--mob {
-    transform: translateX(-200%);
+    transform: translateX(-180%);
   }
   .pos--mob--login{
       transform: translate(-100%,145%);
   }
   .pos--mob--signup{
-      transform: translate(50%,-30%);
+      transform: translate(40%,-30%);
   }
 
 
   .heading-primary{
-    font-size: 2rem;
+    font-size: 2.3rem;
+    width: 100%;
   }
   .heading-box__text{
     font-size: 1.2rem;
@@ -153,25 +165,44 @@
     display: block;
   }
   
-  .cta{ height: 50rem; }
+  .cta{ height: 44rem; }
   .cta__img {
 
-    left: 37%;
+    left: 32%;
     top: 22%;
     
 }
 
 .cta__content {
   display: block;
-  transform: translate(-32%, 70%);
+  transform: translate(11%, 194%);;
 }
 .cta__text {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
+  padding: .7rem 7rem 0 0;
 }
 
 .user-view {
   flex-direction: column;
 }
+
+.user-view__content {
+  padding: 4rem 0;
 }
+.user-view__form-container {
+  max-width: 78rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.section-header {
+  position: relative;
+  height: 100vw;
+}
+
+
+
+
+
 }
