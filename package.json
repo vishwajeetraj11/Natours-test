@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production& nodemon server.js",
-    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "webpackServer": "webpack-dev-server --mode development --open",
     "debug": "ndb server.js",
     "dev": "webpack"
@@ -20,6 +19,7 @@
     "babel": "^6.23.0",
     "babel-loader": "^8.1.0",
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
