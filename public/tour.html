@@ -10,6 +10,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <title>Natours | The Park Camper Tour</title>
@@ -24,24 +25,11 @@
     <header class="header">
       <nav class="nav nav--tours">
         <a href="/overview.html" class="nav__el">All tours</a>
-        <form class="nav__search">
-          <button class="nav__search-btn">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-search"></use>
-            </svg>
-          </button>
-          <input
-            type="text"
-            placeholder="Search tours"
-            class="nav__search-input"
-          />
-        </form>
       </nav>
       <div class="header__logo">
-        <img src="img/logo-white.png" alt="Natours logo" />
+        <img src="img/logo-white.png" alt="Natours logo" class="Logo--mobile" />
       </div>
       <nav class="nav nav--user">
-        <a href="#" class="nav__el">My bookings</a>
         <button class="nav__el">Log out</button>
         <a href="#" class="nav__el">
           <img src="img/user.jpg" alt="User photo" class="nav__user-img" />

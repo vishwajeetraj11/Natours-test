@@ -915,12 +915,12 @@ body {
   cursor: pointer;
   font-family: inherit;
 }
-.nav__el:hover,
+/* .nav__el:hover,
 .nav__el:active {
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
   text-shadow: 0 0.7rem 1rem black;
-}
+} */
 .nav__el:not(:last-child) {
   margin-right: 3rem;
 }
