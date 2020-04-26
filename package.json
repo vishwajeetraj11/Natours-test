@@ -4,11 +4,12 @@
   "description": "Learning Node, Express, MongoDB, Mongoose, Pug and building the natours project along the way",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production& nodemon server.js",
     "webpackServer": "webpack-dev-server --mode development --open",
     "debug": "ndb server.js",
-    "dev": "webpack"
+    "dev_webpack": "webpack"
   },
   "author": "Vishwajeet Raj",
   "license": "ISC",
