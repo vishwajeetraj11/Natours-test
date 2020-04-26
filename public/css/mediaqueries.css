@@ -7,6 +7,7 @@
 
 /*Small Phones to small tablets  from  480px to 767 px*/
 @media only screen and (max-width: 767px) {
+  body{ padding: 0rem;}
   html {
     font-size: 62.5%;
   }
@@ -91,4 +92,86 @@
 
 /*Small Phones from 0 to 480px*/
 @media only screen and (max-width: 480px) {
+  body{ padding: 0rem;}
+  html {
+    font-size: 62.5%;
+  }
+  .header__logo img {
+    height: 2.5rem;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .card-container {
+    display: block !important;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 7rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__logo {
+    transform: translate(310%, 20%);
+  }
+
+  .nav__el,
+  .nav__el:link,
+  .nav__el:visited {
+    font-size: 1.3rem;
+  }
+
+  .pos--mob {
+    transform: translateX(-200%);
+  }
+  .pos--mob--login{
+      transform: translate(-100%,145%);
+  }
+  .pos--mob--signup{
+      transform: translate(50%,-30%);
+  }
+
+
+  .heading-primary{
+    font-size: 2rem;
+  }
+  .heading-box__text{
+    font-size: 1.2rem;
+  }
+  .heading-secondary {
+    font-size: 1.6rem;
+  }
+  .section-description{
+    display: block;
+  }
+  
+  .cta{ height: 50rem; }
+  .cta__img {
+
+    left: 37%;
+    top: 22%;
+    
+}
+
+.cta__content {
+  display: block;
+  transform: translate(-32%, 70%);
+}
+.cta__text {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.user-view {
+  flex-direction: column;
+}
+}
 }
