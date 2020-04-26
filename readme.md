@@ -1,3 +1,3 @@
 # Natours Application
 
-Built using Node.js, Express, MongoDB, Mongoose, Pug.git 
+Built using Node.js, Express, MongoDB, Mongoose, Pug
