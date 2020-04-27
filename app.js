@@ -17,7 +17,7 @@ const userRouter = require('./Routes/userRoutes');
 const reviewRouter = require('./Routes/reviewRoutes');
 const bookingRouter = require('./Routes/bookingRoutes');
 const viewRouter = require('./Routes/viewRoutes');
-
+const cors = require('cors');
 const app = express();
 app.enable('trust proxy');
 
@@ -25,6 +25,12 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 // 1. Global Middleware
+app.use(cors());
+
+app.options('*', cors());
+// Simple request are get post
+// By default non simple->(delete, patch) request are not allowed but the method above allows that. 
+//  app.options('All urls', cors()) this means that all non-simple requests are allowed over cors 
 
 // to get this inthe console : POST /api/v1/tours 201 126.424 ms - 167
 // console.log(process.env.NODE_ENV);
